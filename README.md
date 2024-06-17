@@ -47,7 +47,7 @@ We would recommend trying to write your own detector's idea after writing 2-3 of
   - For example: https://virtualenvwrapper.readthedocs.io/en/latest/
   - `mkvirtualenv secureum` - generate a python virtual env
   - `workon secureum` - open the virtual env
-- From the virtual env, run `pip -e install .`. This will add the detectors in slither.
+- From the virtual env, run `pip install -e .`. This will add the detectors in slither.
 - You can then run you new detector with `slither path/to/file.sol --detect NAME`
 
 Ask in discord if you have problems 
